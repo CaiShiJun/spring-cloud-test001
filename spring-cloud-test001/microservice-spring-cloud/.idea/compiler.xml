@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-provider-user" />
       </profile>
