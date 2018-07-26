@@ -14,7 +14,10 @@
         <module>microservice-consumer-movie-ribbon</module>
         <module>microservice-consumer-movie-ribbon-custom</module>
         <module>microservice-consumer-movie-ribbon-custom2</module>
+        <module>microservice-consumer-movie-ribbon-properties-customizing</module>
         <module>microservice-provider-user</module>
+        <module>microservice-consumer-movie-ribbon-without-eureka</module>
+        <module>microservice-consumer-movie-feign</module>
     </modules>
 
     <properties>
