@@ -15,6 +15,7 @@
         <module name="microservice-consumer-movie-ribbon-properties-customizing" />
         <module name="microservice-consumer-movie-ribbon-without-eureka" />
         <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-provider-user" />
       </profile>
     </annotationProcessing>
