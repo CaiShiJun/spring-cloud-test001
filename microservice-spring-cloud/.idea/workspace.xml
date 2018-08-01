@@ -16,6 +16,7 @@
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/target/" />
     <ignored path="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +26,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/src/main/java/com/itmuch/cloud/controller/MovieController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerMovieRibbonPropertiesCustomApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonPropertiesCustomApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerMovieRibbonWithHystrixPropagationApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonWithHystrixPropagationApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="75" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -48,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/entity/User.java" />
         <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/controller/UserController.java" />
         <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
@@ -99,6 +134,8 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/src/main/java/com/itmuch/cloud/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonWithHystrixApplication.java" />
       </list>
     </option>
   </component>
@@ -127,6 +164,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -135,74 +173,10 @@
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroserviceSimpleProviderUserApplication (7900)">
+  <component name="RunManager" selected="Spring Boot.ConsumerMovieRibbonWithHystrixPropagationApplication(8010)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -285,6 +259,17 @@
     <configuration name="ConsumerMovieRibbonWithHystrixApplication(8010)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-consumer-movie-ribbon-with-hystrix" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConsumerMovieRibbonWithHystrixApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ConsumerMovieRibbonWithHystrixPropagationApplication(8010)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-ribbon-with-hystrix-propagation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itmuch.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConsumerMovieRibbonWithHystrixPropagationApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ConsumerMovieRibbonWithoutEurekaApplication(8010)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -438,6 +423,7 @@
       <item itemvalue="Spring Boot.ConsumerMovieFeignApplication(8010)" />
       <item itemvalue="Spring Boot.ConsumerMovieFeignCustomApplication(8010)" />
       <item itemvalue="Spring Boot.ConsumerMovieRibbonWithHystrixApplication(8010)" />
+      <item itemvalue="Spring Boot.ConsumerMovieRibbonWithHystrixPropagationApplication(8010)" />
       <item itemvalue="Spring Boot.EurekaHaApplication(peer1:8761)" />
       <item itemvalue="Spring Boot.EurekaHaApplication(peer2:8762) " />
       <item itemvalue="Spring Boot.EurekaHaApplication(peer3:8763) " />
@@ -464,11 +450,13 @@
       <workItem from="1532627796650" duration="2401000" />
       <workItem from="1533144157862" duration="660000" />
       <workItem from="1533144874923" duration="1521000" />
+      <workItem from="1533147698117" duration="1088000" />
+      <workItem from="1533148837619" duration="215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27723000" />
+    <option name="totallyTimeSpent" value="29026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -494,7 +482,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.36689654" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24153645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2955729" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -514,28 +502,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java">
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/src/main/java/com/itmuch/cloud/controller/MovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-custom/src/main/java/com/itmuch/cloud/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-custom/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="304">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -599,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,13 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonPropertiesCustomApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -764,9 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,12 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +809,35 @@
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/src/main/java/com/itmuch/cloud/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonPropertiesCustomApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix-propagation/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonWithHystrixPropagationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
         </state>
       </provider>
     </entry>
