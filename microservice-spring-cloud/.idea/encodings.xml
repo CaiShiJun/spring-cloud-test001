@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-custom" charset="UTF-8" />
