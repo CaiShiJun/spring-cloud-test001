@@ -11,6 +11,7 @@
         <module name="microservice-consumer-movie-feign-customizing" />
         <module name="microservice-consumer-movie-feign-customizing-without-hystrix" />
         <module name="microservice-consumer-movie-feign-with-hystrix" />
+        <module name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" />
         <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-consumer-movie-ribbon-custom" />
         <module name="microservice-consumer-movie-ribbon-custom2" />
