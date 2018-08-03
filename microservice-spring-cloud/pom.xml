@@ -25,6 +25,7 @@
 		<module>microservice-consumer-movie-feign-customizing-without-hystrix</module>
         <module>microservice-discovery-eureka-ha</module>
         <module>microservice-consumer-movie-feign-with-hystrix-hystrix-factory</module>
+        <module>microservice-hystrix-dashboard</module>
     </modules>
 
     <properties>
