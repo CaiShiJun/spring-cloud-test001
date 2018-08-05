@@ -1,2 +1,2 @@
 server:
-  port: 8030  #Eureka默认的端口
+  port: 8030

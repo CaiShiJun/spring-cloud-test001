@@ -22,6 +22,7 @@
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
         <module name="microservice-provider-user" />
       </profile>
     </annotationProcessing>
