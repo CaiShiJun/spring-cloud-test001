@@ -12,6 +12,4 @@ eureka:
 zuul:
   ignored-services: microservice-consumer-movie-ribbon-with-hystrix,microservice-consumer-movie-ribbon-with-hystrix2
   routes:
-    abcdefg:
-      path: /user-path/**
-      serviceId: microservice-provider-user
+    microservice-provider-user: /user/**
