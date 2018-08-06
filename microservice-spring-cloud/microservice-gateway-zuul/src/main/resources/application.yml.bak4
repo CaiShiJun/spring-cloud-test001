@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: microservice-gateway-zuul
+server:
+  port: 8040
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+zuul:
+  ignored-services: microservice-consumer-movie-ribbon-with-hystrix,microservice-consumer-movie-ribbon-with-hystrix2
+  routes:
+    abcdefg:
+      path: /user-path/**
+      serviceId: microservice-provider-user
+
+ribbon:
+  eureka:
+    enabled: false
+
+microservice-provider-user:   # 这边是ribbon要请求的微服务的serviceId
+  ribbon:
+    listOfServers: http://192.168.80.1:7900,http://192.168.80.1:7901

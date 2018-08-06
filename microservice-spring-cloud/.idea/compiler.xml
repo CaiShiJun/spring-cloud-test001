@@ -24,6 +24,7 @@
         <module name="microservice-discovery-eureka" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-gateway-zuul" />
+        <module name="microservice-gateway-zuul-reg-exp" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine" />
         <module name="microservice-hystrix-turbine2" />

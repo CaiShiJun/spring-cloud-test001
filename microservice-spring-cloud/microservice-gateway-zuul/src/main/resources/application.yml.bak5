@@ -9,3 +9,9 @@ eureka:
       defaultZone: http://user:password123@localhost:8761/eureka
   instance:
     prefer-ip-address: true
+zuul:
+  prefix: /simple
+  strip-prefix: false
+logging:
+  level:
+    com.netflix: debug

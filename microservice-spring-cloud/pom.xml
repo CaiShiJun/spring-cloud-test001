@@ -32,6 +32,7 @@
         <module>microservice-consumer-movie-ribbon-with-hystrix3</module>
         <module>microservice-hystrix-turbine3</module>
         <module>microservice-gateway-zuul</module>
+        <module>microservice-gateway-zuul-reg-exp</module>
     </modules>
 
     <properties>

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservice-gateway-zuul
+    name: microservice-gateway-zuul-reg-exp
 server:
   port: 8040
 eureka:

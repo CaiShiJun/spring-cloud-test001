@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: microservice-gateway-zuul
+server:
+  port: 8040
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+zuul:
+  ignored-services: microservice-consumer-movie-ribbon-with-hystrix,microservice-consumer-movie-ribbon-with-hystrix2
+  routes:
+    abcdefg:
+      path: /user-path/**
+      url: http://192.168.80.1:7900
