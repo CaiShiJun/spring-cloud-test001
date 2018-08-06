@@ -27,6 +27,10 @@
         <module>microservice-consumer-movie-feign-with-hystrix-hystrix-factory</module>
         <module>microservice-hystrix-dashboard</module>
         <module>microservice-hystrix-turbine</module>
+        <module>microservice-hystrix-turbine2</module>
+        <module>microservice-consumer-movie-ribbon-with-hystrix2</module>
+        <module>microservice-consumer-movie-ribbon-with-hystrix3</module>
+        <module>microservice-hystrix-turbine3</module>
     </modules>
 
     <properties>
