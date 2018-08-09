@@ -19,6 +19,7 @@
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-reg-exp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-hystrix-dashboard" charset="UTF-8" />

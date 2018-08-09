@@ -33,6 +33,7 @@
         <module>microservice-hystrix-turbine3</module>
         <module>microservice-gateway-zuul</module>
         <module>microservice-gateway-zuul-reg-exp</module>
+        <module>microservice-file-upload</module>
     </modules>
 
     <properties>
