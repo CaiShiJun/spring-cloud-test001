@@ -35,6 +35,7 @@
         <module>microservice-gateway-zuul-reg-exp</module>
         <module>microservice-file-upload</module>
         <module>microservice-gateway-zuul-fallback</module>
+        <module>microservice-gateway-zuul-filter</module>
     </modules>
 
     <properties>

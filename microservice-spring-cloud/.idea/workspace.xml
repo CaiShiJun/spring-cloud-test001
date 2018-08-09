@@ -30,6 +30,7 @@
     <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/target/" />
     <ignored path="$PROJECT_DIR$/microservice-file-upload/target/" />
     <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-fallback/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-filter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/cloud/EurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="95">
               <caret line="7" column="19" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFallbackProvider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyFallbackProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/src/main/java/com/itmuch/cloud/fallback/MyFallbackProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-332">
+            <state relative-caret-position="19">
               <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,11 +73,60 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="44" />
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GatewayZuulFilterApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/GatewayZuulFilterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreZuulFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/PreZuulFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="10" selection-end-line="24" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -91,19 +141,10 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1178">
-              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -127,11 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/src/main/java/com/itmuch/cloud/ConsumerMovieFeignCustomApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/src/main/java/com/itmuch/cloud/feign/FeignClient2Fallback.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/src/main/java/com/itmuch/cloud/feign/FeignClient2.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/src/main/java/com/itmuch/config/Configuration2.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/pom.xml" />
@@ -178,6 +214,11 @@
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-fallback/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-fallback/src/main/java/com/itmuch/cloud/fallback/MyFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/GatewayZuulApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/PreZuulFilter.java" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/GatewayZuulFilterApplication.java" />
       </list>
     </option>
   </component>
@@ -215,52 +256,42 @@
             <path>
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-gateway-zuul-fallback" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-gateway-zuul-filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-gateway-zuul-fallback" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-gateway-zuul-filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-gateway-zuul-fallback" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-gateway-zuul-fallback" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-gateway-zuul-filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-gateway-zuul-fallback" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-gateway-zuul-filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-gateway-zuul-fallback" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-gateway-zuul-filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="fallback" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-gateway-zuul-fallback" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-gateway-zuul-filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -269,8 +300,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -317,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayZuulFallbackApplication(8040)">
+  <component name="RunManager" selected="Spring Boot.GatewayZuulFilterApplication(8040)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -527,6 +558,11 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.GatewayZuulFallbackApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="GatewayZuulFilterApplication(8040)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-gateway-zuul-filter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.GatewayZuulFilterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="GatewayZuulRegExpApplication(8040)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-gateway-zuul-reg-exp" />
       <extension name="coverage">
@@ -712,6 +748,7 @@
       <item itemvalue="Spring Boot.GatewayZuulApplication(8040)" />
       <item itemvalue="Spring Boot.GatewayZuulRegExpApplication(8040)" />
       <item itemvalue="Spring Boot.GatewayZuulFallbackApplication(8040)" />
+      <item itemvalue="Spring Boot.GatewayZuulFilterApplication(8040)" />
       <item itemvalue="Spring Boot.FileUploadApplication(8050)" />
       <item itemvalue="Spring Boot.EurekaHaApplication(peer1:8761)" />
       <item itemvalue="Spring Boot.EurekaHaApplication(peer2:8762) " />
@@ -759,11 +796,12 @@
       <workItem from="1533823879711" duration="2071000" />
       <workItem from="1533826268735" duration="968000" />
       <workItem from="1533827298861" duration="1887000" />
+      <workItem from="1533831428912" duration="1447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78212000" />
+    <option name="totallyTimeSpent" value="79659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -810,34 +848,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/java/com/itmuch/cloud/feign/HystrixClientFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonWithHystrixApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -1092,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="21" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1124,7 +1127,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1137,7 +1140,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/cloud/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="95">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1147,10 +1150,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/src/main/java/com/itmuch/cloud/fallback/MyFallbackProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-332">
+        <state relative-caret-position="19">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/PreZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/GatewayZuulFilterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
           </folding>
         </state>
       </provider>
