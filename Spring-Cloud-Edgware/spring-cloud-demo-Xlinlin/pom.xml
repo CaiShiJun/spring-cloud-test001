@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.xiao.skywalking.demo</groupId>
+	<artifactId>SpringCloud-Demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<!-- 锁定jdk版本 -->
+	<properties>
+		<java.version>1.8</java.version>
+		<!-- 构建编码 -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.13.RELEASE</version>
+	</parent>
+
+	<modules>
+		<module>SpringCloud-Common</module>
+		<module>SpringCloud-Configure</module>
+		<module>SpringCloud-ConfigCenter</module>
+		<module>SpringCloud-Eureka</module>
+		<module>SpringCloud-ZipkinServer</module>
+		<module>SpringCloud-Gateway</module>
+		<module>SpringCloud-Provider</module>
+		<module>SpringCloud-Consumer</module>
+		<module>SpringCloud-MQTT</module>
+		<module>SpringCloud-Kafka-Elk</module>
+		<module>SpringCloud-Demo-Doc</module>
+		<module>SpringCloud-ECC</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Edgware.SR4</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
