@@ -5,4 +5,4 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://gitee.com/mensao/microservice-config-repo
