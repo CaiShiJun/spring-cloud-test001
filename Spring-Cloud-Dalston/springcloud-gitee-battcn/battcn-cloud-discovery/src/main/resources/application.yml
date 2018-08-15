@@ -1,0 +1,45 @@
+server:
+  port: 8761
+spring:
+  profiles:
+    active: peer2
+  #官方写的就是 8761
+
+---
+spring:
+  profiles: peer1
+  application:
+    name: Eureka-Server-1
+eureka:
+  instance:
+    hostname: peer1
+    #配置主机名
+  client:
+    register-with-eureka: false
+    #配置服务注册中心是否以自己为客户端进行注册(配置false)
+    fetch-registry: false
+    #是否取得注册信息(配置false)
+    service-url:
+      defaultZone: http://peer2:7002/eureka/
+      #defaultZone 一定要按照标准写法，因为service-url的数据类型是Map 这算是个小坑需要注意
+server:
+  port: 7001
+---
+spring:
+  profiles: peer2
+  application:
+    name: Eureka-Server-1
+eureka:
+  instance:
+    hostname: peer2
+    #配置主机名
+  client:
+    register-with-eureka: false
+    #配置服务注册中心是否以自己为客户端进行注册(配置false)
+    fetch-registry: false
+    #是否取得注册信息(配置false)
+    service-url:
+      defaultZone: http://peer1:7001/eureka/
+server:
+  port: 7002
+      #defaultZone 一定要按照标准写法，因为service-url的数据类型是Map 这算是个小坑需要注意

@@ -1,0 +1,33 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: battcn-cloud-hello
+  profiles:
+    active: consul
+
+---
+
+# eureka 环境
+spring:
+  profiles: eureka
+eureka:
+  instance:
+    hostname: localhost #配置主机名
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/ #配置Eureka Server
+---
+
+#  consul 环境
+spring:
+  profiles: consul
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      discovery:
+        enabled: true
+        prefer-ip-address: true
+

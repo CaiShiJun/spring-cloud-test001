@@ -1,0 +1,11 @@
+server.port: 7002
+spring.application.name: battcn-cloud-hello
+endpoints.shutdown.enabled: true    #开启优雅关闭方式
+management.security.enabled: false  #关闭安全认证
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:7001/eureka/

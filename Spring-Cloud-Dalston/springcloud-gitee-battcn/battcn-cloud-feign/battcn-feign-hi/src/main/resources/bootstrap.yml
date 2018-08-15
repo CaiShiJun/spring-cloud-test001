@@ -1,0 +1,53 @@
+server:
+  port: 8766
+
+spring:
+  application:
+    name: battcn-feign-hi
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      discovery:
+        enabled: true
+        prefer-ip-address: true
+
+#Hystrix支持，如果为true，hystrix库必须在classpath中
+feign:
+  okhttp:
+    enabled: true #开启OKHTTP支持，依赖 （feign-okhttp）默认HttpClient
+  #请求和响应GZIP压缩支持
+  compression:
+    request:
+      enabled: true
+      #支持压缩的mime types
+      mime-types: text/xml,application/xml,application/json
+      min-request-size: 2048
+    response:
+      enabled: true
+  hystrix:
+    enabled=false
+# 日志支持
+logging:
+  level:
+    project.com.battcn.UserClient: DEBUG
+
+
+#以下就是需要写的配置，注意base-package就可以了
+swagger:
+  enable: true  #是否开启Swagger
+  api-info:
+    description: ${spring.application.name}
+    license: ${spring.application.name}
+    license-url: http://blog.battcn.com
+    terms-of-service-url: http://blog.battcn.com
+    title: 鏖战八方
+    version: "@project.version@"
+    contact:
+      email: 1837307557@qq.com
+      name: 挽歌
+      url: http://blog.battcn.com
+  docket:
+    base-package: com.battcn.controller   #扫描路径，建议以Controller的父包为主
+    group-name: ${spring.application.name}

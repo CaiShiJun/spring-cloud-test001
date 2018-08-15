@@ -1,0 +1,18 @@
+server:
+  port: 8766
+
+feign:
+  hystrix:
+    enabled: true   #开启Feign Hystrix 支持
+
+spring:
+  application:
+    name: battcn-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      discovery:
+        enabled: true
+        prefer-ip-address: true

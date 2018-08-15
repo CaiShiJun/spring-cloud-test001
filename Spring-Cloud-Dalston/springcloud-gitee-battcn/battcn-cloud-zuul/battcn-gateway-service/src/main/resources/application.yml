@@ -1,0 +1,46 @@
+server:
+  port: 9000
+
+zuul:
+  routes:
+    battcn-hello-service: /api-hello/**
+
+#zuul:
+#  routes:
+#    hello-service:    #自定义的 路由名称
+#      path: /api-hello/**   #路由路径
+#      serviceId: battcn-hello-service #VIP 模式中的 serviceId
+
+#zuul:
+#  routes:
+#    hello-service:
+#      path: /api-hello/**   #路由路径
+#      url: http://localhost:9001/   #指定URL地址
+
+#zuul:
+#  routes:
+#    battcn-hello-service: /api-hello/**
+#ribbon:
+#  eureka:
+#    enabled: false    #为Ribbon禁用 eureka,不会破坏Zuul的Hystrix和Ribbon特性
+#battcn-hello-service:
+#  ribbon:
+#    listOfServers: localhost:9001,localhost:9002
+
+spring:
+  application:
+    name: battcn-gateway-service
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      discovery:
+        enabled: true
+        prefer-ip-address: true
+
+logging:
+  level:
+    com.netflix: DEBUG
+
+

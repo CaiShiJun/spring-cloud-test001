@@ -1,0 +1,12 @@
+server:
+  port: 7012
+spring:
+  application:
+    name: battcn-cloud-h2
+
+eureka:
+  instance:
+    hostname: localhost #配置主机名
+  client:
+    service-url:
+      defaultZone: http://peer1:7001/eureka/,http://peer2:7002/eureka/   #配置Eureka Server

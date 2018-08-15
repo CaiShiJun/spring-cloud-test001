@@ -1,0 +1,10 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: battcn-config-client
+  cloud:
+    config:
+      name: config-server
+      profile: order-default
+      uri: http://localhost:9000

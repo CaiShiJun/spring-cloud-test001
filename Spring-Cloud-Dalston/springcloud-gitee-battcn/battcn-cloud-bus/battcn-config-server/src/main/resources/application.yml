@@ -1,0 +1,23 @@
+server:
+  port: 9000
+spring:
+  rabbitmq:
+    addresses: 192.168.31.86
+    port: 5672
+    username: guest
+    password: guest
+  application:
+    name: battcn-config-server
+  profiles:
+    active:
+    - native
+  cloud:
+    config:
+      name: config-server     #{application}
+      enabled: false
+      server:
+        health:
+          enabled: false
+management:
+  security:
+    enabled: false

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: battcn-boot-liquibase
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/liquibase?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+liquibase:
+  change-log: classpath:db/changelog/db.changelog-master.yaml

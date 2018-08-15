@@ -1,0 +1,15 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: battcn-cloud-discovery
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+

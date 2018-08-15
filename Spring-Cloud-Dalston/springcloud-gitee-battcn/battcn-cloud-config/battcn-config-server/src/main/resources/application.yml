@@ -1,0 +1,16 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: battcn-config-server
+  profiles:
+    active:
+    - native
+  cloud:
+    config:
+      name: config-server     #{application}
+      enabled: false
+      server:
+        health:
+          enabled: false
+
