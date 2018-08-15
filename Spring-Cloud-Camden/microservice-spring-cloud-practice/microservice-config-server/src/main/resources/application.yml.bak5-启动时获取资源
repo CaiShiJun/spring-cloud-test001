@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/mensao/microservice-config-repo.git    # 公用
+          repos:
+            simple: https://gitee.com/mensao/simple.git
+            special:
+              pattern: special*/dev*,special*/test*
+              uri: https://gitee.com/mensao/special.git
+              cloneOnStart: false   # 局部 cloneOnStart 配置，只对所在的 repo （本例为 special ）起作用。
+          clone-on-start: true    # 全局 cloneOnStart 配置，对所有的资源文件起作用。
