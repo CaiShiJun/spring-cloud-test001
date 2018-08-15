@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/mensao/microservice-config-repo
+          username:
+          password:
+
+encrypt:
+  keyStore:
+    location: classpath:/server.jks   # keyStore 文件的路径。
+    password: letmein     # 就是 -storepass ，也就是 keyStore 的密钥。
+    alias: mytestkey      # 就是 -alias 别名。
+    secret: changeme      # 就是 -keypass ，也就是指定别名条目的密码（私钥的密码）。
