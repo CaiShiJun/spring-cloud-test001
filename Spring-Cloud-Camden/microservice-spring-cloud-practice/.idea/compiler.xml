@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-config-client" />
         <module name="microservice-config-server" />
+        <module name="microservice-config-server-encrypt" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-feign" />
         <module name="microservice-consumer-movie-feign-customizing" />

@@ -33,6 +33,7 @@
     <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-filter/target/" />
     <ignored path="$PROJECT_DIR$/microservice-config-server/target/" />
     <ignored path="$PROJECT_DIR$/microservice-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-server-encrypt/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,54 +43,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-server-encrypt/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigServerEncryptApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-server-encrypt/src/main/java/com/itmuch/cloud/ConfigServerEncryptApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+            <state relative-caret-position="114">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml.bak6-账号密码" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak6-账号密码">
+      <file leaf-file-name="microservice-config-client.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml.bak5-启动时获取资源" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak5-启动时获取资源">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml.bak4-搜素路径" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak4-搜素路径">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml.bak3-模式匹配" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak3-模式匹配">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="55" selection-end-line="12" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml.bak2-通配符" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak2-通配符">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigClientController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client/src/main/java/com/itmuch/cloud/ConfigClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
@@ -101,20 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-config-client/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml.bak1-基础使用方式" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak1-基础使用方式">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="56" selection-end-line="7" selection-end-column="64" />
+            <state relative-caret-position="76">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -138,8 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-hystrix-turbine/src/main/java/HystrixDashboardApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/src/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine/src/main/java/TurbineApplication.java" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine2/pom.xml" />
@@ -180,15 +139,17 @@
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/src/main/java/com/itmuch/cloud/GatewayZuulFilterApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-config-server/src/main/java/com/itmuch/cloud/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-config-server/src/main/java/com/itmuch/cloud/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/microservice-config-client/src/main/java/com/itmuch/cloud/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/microservice-config-client/src/main/java/com/itmuch/cloud/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/microservice-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-config-client/src/main/java/com/itmuch/cloud/ConfigClientController.java" />
         <option value="$PROJECT_DIR$/microservice-config-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-config-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-encrypt/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-encrypt/src/main/java/com/itmuch/cloud/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-config-client/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -223,13 +184,90 @@
               <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-server-encrypt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-server-encrypt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-server-encrypt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-server-encrypt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-server-encrypt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-spring-cloud-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-config-server-encrypt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,25 +281,25 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/microservice-hystrix-turbine/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\github_repository_space\spring-cloud-test001\Spring-Cloud-Camden\microservice-spring-cloud-practice\microservice-config-server\src\main\resources" />
-      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-gateway-zuul\src\main\resources" />
-      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-hystrix-turbine2\src\main\resources" />
-      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-hystrix-turbine" />
-      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-hystrix-factory\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-hystrix-turbine\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.itmuch.cloud.feign" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-hystrix-turbine\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github_repository_space\spring-cloud-test001\Spring-Cloud-Camden\microservice-spring-cloud-practice\microservice-config-server-encrypt\src\main\resources" />
+      <recent name="E:\github_repository_space\spring-cloud-test001\Spring-Cloud-Camden\microservice-spring-cloud-practice\microservice-config-server\src\main\resources" />
+      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-gateway-zuul\src\main\resources" />
+      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-hystrix-turbine2\src\main\resources" />
+      <recent name="E:\github_repository_space\spring-cloud-test001\microservice-spring-cloud\microservice-hystrix-turbine" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication(8080)">
+  <component name="RunManager" selected="Spring Boot.ConfigServerEncryptApplication(8080)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -304,6 +342,17 @@
     <configuration name="ConfigServerApplication(8080)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ConfigServerEncryptApplication(8080)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-config-server-encrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itmuch.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConfigServerEncryptApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ConsumerMovieFeignApplication(8010)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -692,6 +741,7 @@
       <item itemvalue="Spring Boot.EurekaHaApplication(peer2:8762) " />
       <item itemvalue="Spring Boot.EurekaHaApplication(peer3:8763) " />
       <item itemvalue="Spring Boot.ConfigServerApplication(8080)" />
+      <item itemvalue="Spring Boot.ConfigServerEncryptApplication(8080)" />
       <item itemvalue="Spring Boot.ConfigClientApplication(8081)" />
     </list>
   </component>
@@ -743,14 +793,16 @@
       <workItem from="1534263163051" duration="2871000" />
       <workItem from="1534267087300" duration="1526000" />
       <workItem from="1534348260560" duration="4253000" />
+      <workItem from="1534355020214" duration="3486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89935000" />
+    <option name="totallyTimeSpent" value="93421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -793,13 +845,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix3/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonWithHystrix3Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1053,20 +1098,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-client/src/main/java/com/itmuch/cloud/ConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,35 +1122,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak5-启动时获取资源">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak4-搜素路径">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak3-模式匹配">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="55" selection-end-line="12" selection-end-column="55" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak2-通配符">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak1-基础使用方式">
       <provider selected="true" editor-type-id="text-editor">
@@ -1125,12 +1137,57 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml.bak6-账号密码">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server-encrypt/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server-encrypt/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server-encrypt/src/main/java/com/itmuch/cloud/ConfigServerEncryptApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>

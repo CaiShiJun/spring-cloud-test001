@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       uri: http://localhost:8080
-      profile: dev
+      profile: dev      # dev production
       label: master
   application:
     name: foobar
