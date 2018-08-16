@@ -40,6 +40,8 @@
         <module>microservice-config-client</module>
         <module>microservice-config-server-encrypt</module>
         <module>microservice-config-server-encrypt-rsa</module>
+        <module>microservice-config-server-authc</module>
+        <module>microservice-config-client-authc</module>
     </modules>
 
     <properties>

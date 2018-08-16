@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-config-client" />
+        <module name="microservice-config-client-authc" />
         <module name="microservice-config-server" />
+        <module name="microservice-config-server-authc" />
         <module name="microservice-config-server-encrypt" />
         <module name="microservice-config-server-encrypt-rsa" />
         <module name="microservice-consumer-movie" />
