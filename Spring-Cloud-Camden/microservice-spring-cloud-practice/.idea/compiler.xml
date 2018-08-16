@@ -9,6 +9,7 @@
         <module name="microservice-config-client" />
         <module name="microservice-config-client-authc" />
         <module name="microservice-config-client-eureka" />
+        <module name="microservice-config-client-refresh" />
         <module name="microservice-config-server" />
         <module name="microservice-config-server-authc" />
         <module name="microservice-config-server-encrypt" />

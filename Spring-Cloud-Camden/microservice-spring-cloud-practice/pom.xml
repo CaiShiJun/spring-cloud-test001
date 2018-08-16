@@ -44,6 +44,7 @@
         <module>microservice-config-client-authc</module>
         <module>microservice-config-server-eureka</module>
         <module>microservice-config-client-eureka</module>
+        <module>microservice-config-client-refresh</module>
     </modules>
 
     <properties>
