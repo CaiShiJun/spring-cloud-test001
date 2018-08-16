@@ -37,6 +37,8 @@
     <ignored path="$PROJECT_DIR$/microservice-config-server-encrypt-rsa/target/" />
     <ignored path="$PROJECT_DIR$/microservice-config-server-authc/target/" />
     <ignored path="$PROJECT_DIR$/microservice-config-client-authc/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-server-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-client-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +48,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client-authc/src/main/resources/bootstrap.yml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-server-eureka/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="151">
+              <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigClientAuthcApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client-authc/src/main/java/com/itmuch/cloud/ConfigClientAuthcApplication.java">
+      <file leaf-file-name="ConfigServerEurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-server-eureka/src/main/java/com/itmuch/cloud/ConfigServerEurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="114">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigClientEurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/src/main/java/com/itmuch/cloud/ConfigClientEurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-config-server-eureka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-config-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="17" selection-start-line="12" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -83,14 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-hystrix-turbine3/src/main/java/com/itmuch/cloud/Turbine2Application.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix3/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix3/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonWithHystrix2Application.java" />
-        <option value="$PROJECT_DIR$/microservice-hystrix-turbine3/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-hystrix-turbine2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-gateway-zuul/src/main/java/com/itmuch/cloud/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-gateway-zuul/src/main/java/com/itmuch/cloud/GatewayZuulApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/src/main/java/com/itmuch/cloud/GatewayZuulApplication.java" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/src/main/resources/application.yml" />
@@ -134,6 +187,14 @@
         <option value="$PROJECT_DIR$/microservice-config-client-authc/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-config-client-authc/src/main/java/com/itmuch/cloud/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/microservice-config-client-authc/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-eureka/src/main/java/com/itmuch/cloud/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-config-server-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-eureka/src/main/java/com/itmuch/cloud/ConfigServerEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-config-client-eureka/src/main/java/com/itmuch/cloud/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-config-client-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-eureka/src/main/java/com/itmuch/cloud/ConfigClientEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-config-client-eureka/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-eureka/pom.xml" />
       </list>
     </option>
   </component>
@@ -161,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,9 +234,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientAuthcApplication(8081)">
+  <component name="RunManager" selected="Spring Boot.ConfigClientEurekaApplication(8081)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -255,6 +316,11 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConfigClientAuthcApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ConfigClientEurekaApplication(8081)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-config-client-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConfigClientEurekaApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ConfigServerApplication(8080)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -293,6 +359,17 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConfigServerEncryptRsaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ConfigServerEurekaApplication(8080)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-config-server-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itmuch.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConfigServerEurekaApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ConsumerMovieFeignApplication(8010)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -684,8 +761,10 @@
       <item itemvalue="Spring Boot.ConfigServerEncryptApplication(8080)" />
       <item itemvalue="Spring Boot.ConfigServerEncryptRsaApplication(8080)" />
       <item itemvalue="Spring Boot.ConfigServerAuthcApplication(8080)" />
+      <item itemvalue="Spring Boot.ConfigServerEurekaApplication(8080)" />
       <item itemvalue="Spring Boot.ConfigClientApplication(8081)" />
       <item itemvalue="Spring Boot.ConfigClientAuthcApplication(8081)" />
+      <item itemvalue="Spring Boot.ConfigClientEurekaApplication(8081)" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -739,11 +818,12 @@
       <workItem from="1534355020214" duration="3486000" />
       <workItem from="1534359449642" duration="589000" />
       <workItem from="1534439833890" duration="1208000" />
+      <workItem from="1534441317613" duration="2141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95218000" />
+    <option name="totallyTimeSpent" value="97359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -769,7 +849,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.43448275" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32965517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36328125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36328125" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -789,55 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml.bak3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" selection-start-line="37" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-hystrix-turbine/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/java/com/itmuch/cloud/study/FileUploadApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-hystrix-turbine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-file-upload/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1039,10 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,13 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1074,9 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-server-encrypt/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1088,13 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="12" selection-start-line="12" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1112,15 +1122,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-authc/src/main/java/com/itmuch/cloud/ConfigClientAuthcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client-authc/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-client-authc/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1129,10 +1136,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client-authc/src/main/java/com/itmuch/cloud/ConfigClientAuthcApplication.java">
+    <entry file="file://$PROJECT_DIR$/microservice-config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server-eureka/microservice-config-server-eureka.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="21" selection-start-line="21" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" selection-start-line="12" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server-eureka/src/main/java/com/itmuch/cloud/ConfigServerEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/src/main/java/com/itmuch/cloud/ConfigClientEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-server-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
